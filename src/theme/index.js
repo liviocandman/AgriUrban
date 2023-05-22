@@ -16,7 +16,7 @@ export const THEME = {
 
     SHAPE: '#2A2634',
 
-    PRIMARY_100: '#8B5CF6',
+    PRIMARY_100: '#86EFAC',
     PRIMARY_200: '#F0FDF5',
     PRIMARY_300: '#19725D',
 
@@ -24,7 +24,7 @@ export const THEME = {
     ALERT: '#F87171',
 
     FOOTER: ['rgba(0,0,0,0)', 'rgba(0,0,0,0.9)'],
-    OVERLAY: 'rgba(0,0,0,0.6)',
+    OVERLAY: 'rgba(0,0,0,0.07)',
   },
 
   FONT_FAMILY: {
