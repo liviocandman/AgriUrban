@@ -10,7 +10,6 @@ import { signInWithEmailAndPassword } from 'firebase/auth'
 
 export function LoginScreen( {navigation}) {
   
-  
   const [errorMessage, setErrorMessage] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')

@@ -1,8 +1,9 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Home } from '../screens/Home';
+import { Busca } from '../screens/Busca';
 import { Herbario } from '../screens/Herbario';
 import { Perfil } from '../screens/Perfil';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { MaterialCommunityIcons, Ionicons } from '@expo/vector-icons';
 import { THEME } from '../theme';
 
 const Tab = createBottomTabNavigator();
@@ -27,6 +28,15 @@ export function BottomTabNavigator() {
         options={{
             tabBarIcon: ({ color, size }) => (
               <MaterialCommunityIcons name="home-outline" color={color} size={size} />
+            ),
+          }} 
+    />
+     <Tab.Screen 
+        name="Busca" 
+        component={Busca}
+        options={{
+            tabBarIcon: ({ color, size }) => (
+              <Ionicons name="search" color={color} size={size} />
             ),
           }} 
     />

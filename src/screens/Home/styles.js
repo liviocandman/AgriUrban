@@ -4,14 +4,17 @@ import { THEME } from '../../theme';
 export const styles = StyleSheet.create({
   container: {
     flex:1,
+    
   },
   topBackground: {
     flex:1,
     position: 'relative',
+    backgroundColor: THEME.COLORS.BACKGROUND_900,
   },  
   greenBackground: {
     width: '100%',
     position: 'absolute',
+    borderBottomEndRadius: 40
   },
   header:{
     paddingHorizontal: 16,
@@ -26,11 +29,29 @@ export const styles = StyleSheet.create({
   text:{
     fontSize: THEME.FONT_SIZE.MD,
     fontWeight: '600',
-    color: THEME.COLORS.ACCENT_200
+    color: THEME.COLORS.ACCENT_100
+  },
+  title:{
+    marginTop: 16,
+    paddingHorizontal: 16
+  },
+  textTitle:{
+    fontWeight: 'bold',
+    fontSize: THEME.FONT_SIZE.LG
+  },
+  textSubTitle:{
+    fontWeight: '400',
+    fontSize: THEME.FONT_SIZE.SM,
+
+  },
+  textCategories:{
+    fontWeight: '500',
+    fontSize: THEME.FONT_SIZE.MD,
+
   },
   searchBar:{
     marginHorizontal: 20,
-    marginTop: 56,
+    marginTop: 30,
   },
   search:{
     flexDirection: 'row',
@@ -53,7 +74,8 @@ export const styles = StyleSheet.create({
   },
   categories:{
     paddingHorizontal: 20,
-    marginTop: 46,
+    marginTop: 16,
+    gap:8
   },
   categoriesButtons:{
     padding: 16,
@@ -68,8 +90,13 @@ export const styles = StyleSheet.create({
   activeCategoriesText:{
     color: 'white'
   },
+  titleCard:{
+    fontWeight: '700',
+    paddingHorizontal: 20,
+    fontSize: THEME.FONT_SIZE.MD
+  },
   produtosCard: {
- 
-    paddingVertical: 8
-  }
+    marginTop: 30,
+  },
+
 });
