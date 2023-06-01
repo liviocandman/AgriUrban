@@ -20,7 +20,9 @@ export function PlantsCard({item}) {
       <Image style={styles.image} source={{uri: item.image}}/>  
         <View style={styles.info}> 
             <Text style={styles.name}>{item.name}</Text>
-            <Text style={styles.desc}>{item.desc}</Text>
+            <View style={styles.descHeight}>
+              <Text style={styles.desc}>{item.desc}</Text>
+            </View>
         </View>
      
     </TouchableOpacity>

@@ -8,7 +8,8 @@ export const styles = StyleSheet.create({
     justifyContent: 'space-between',
     marginHorizontal: 20,
     borderRadius: 10,
-    height: 90,
+    maxHeight: 90,
+    marginBottom: 30,
   },
   image:{
     width: 90,
@@ -17,7 +18,7 @@ export const styles = StyleSheet.create({
   },
   info: {
     width: 250,
-    height: 90,
+    top: -3
   },
   name:{
     fontSize: THEME.FONT_SIZE.SM,
@@ -25,5 +26,9 @@ export const styles = StyleSheet.create({
   },
   desc:{
     color: THEME.COLORS.CAPTION_500,
+    
+  },
+  descHeight:{
+    height: 69
   }
 });

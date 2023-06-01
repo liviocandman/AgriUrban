@@ -25,6 +25,7 @@ export const styles = StyleSheet.create({
     margin: 10,
     color: THEME.COLORS.CAPTION_500,
     fontSize: THEME.FONT_SIZE.SM,
+    fontWeight:'400'
   },
   cardPlants: {
     marginTop: 50
