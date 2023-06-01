@@ -1,7 +1,9 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "AgriUrban",
+    "slug": "agriUrban",
+    "privacy": "public",
+    "description": "A shopping application to locate establishments that sell organic food and a hebarium containing information about different plant species",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

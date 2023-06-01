@@ -60,7 +60,6 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-
   },
   plusMinusIcons:{
     flexDirection: 'row',
@@ -72,32 +71,8 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 16,
     padding: 4
   }, 
-  buyNowLine:{
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-  },
-  bagIcon:{
-    padding:16,
-    borderRadius:50,
-    borderColor:THEME.COLORS.CAPTION_400,
-    borderWidth: 1
-  },
-  buyNowButton:{
-    backgroundColor: THEME.COLORS.PRIMARY_100,
-    padding: 20,
-    borderRadius:50,
-    flex:1,
-    marginLeft: 12,
-    alignItems: 'center',
-  },
-  textButton:{
-    color: THEME.COLORS.BACKGROUND_900,
-    fontSize: THEME.FONT_SIZE.MD,
-    fontWeight: 'bold'
-  },
   bottom:{
-    top: 150,
+    top: 200,
     gap: 20
   }
 });

@@ -8,9 +8,19 @@ import { THEME } from '../../theme';
 export function ProdutosCard({item}) {
   const navigation = useNavigation();
   return (
-    <View style={styles.container}>
+    <TouchableOpacity 
+      onPress={() => navigation.navigate('product', {
+        name: item.name,
+        id: item.id,
+        price: item.price,
+        stars: item.stars,
+        image: item.image,
+        desc: item.desc
+      })}
+      style={styles.container}
+    >
         <View style={styles.shadowImage}>
-          <Image source={item.image} style={{width: 200, height: 200}}/>
+          <Image source={item.image} style={{width: 150, height: 150}}/>
         </View>
         <View style={styles.infoCard}>
           <Text style={styles.titleCardText}>{item.name}</Text>
@@ -32,6 +42,6 @@ export function ProdutosCard({item}) {
             </TouchableOpacity>
           </View>
         </View>
-    </View>
+    </TouchableOpacity>
   );
 }

@@ -39,6 +39,7 @@ export const styles = StyleSheet.create({
         fontSize: 15
     
       },
+
       textCategories:{
         fontWeight: '500',
         fontSize: THEME.FONT_SIZE.MD,
@@ -71,8 +72,104 @@ export const styles = StyleSheet.create({
         borderRadius: 50,
         backgroundColor: THEME.COLORS.ACCENT_100
       },
+      categories:{
+        paddingHorizontal: 20,
+        top: -10,
+        gap:8
+
+      },
+      categoriesButtons:{
+        padding: 10,
+        paddingVertical:8,
+        shadowOpacity: 1,
+      },
+      activeCategories:{
+        borderBottomWidth: 2,
+        borderBottomColor: THEME.COLORS.ACCENT_100,
+        padding: 10,
+        paddingVertical:8,
+        shadowOpacity: 1,
+      },
+      categoriesText: {
+        fontWeight: '700',
+        color: THEME.COLORS.CAPTION_500,
+        fontSize: THEME.FONT_SIZE.SM
+      },
+      activeCategoriesText:{
+        color: THEME.COLORS.ACCENT_100,
+        fontWeight: '700',
+        fontSize: THEME.FONT_SIZE.SM
+      },
       map:{
         flex: 1,
         width: "100%",
-      }
+      },
+      mark: {
+        backgroundColor: THEME.COLORS.PRIMARY_100
+      },
+      callout:{
+        backgroundColor: THEME.COLORS.BACKGROUND_900,
+    
+      },
+      bubble:{
+        alignSelf:'flex-start',
+        backgroundColor: THEME.COLORS.BACKGROUND_900,
+        borderRadius:10,
+        width: 180,
+        height: 150
+      },
+  
+      infoStore:{
+        padding:10,
+      },  
+      arrow: {
+        backgroundColor: 'transparent',
+        borderColor: 'transparent',
+        borderTopColor: THEME.COLORS.BACKGROUND_900,
+        borderWidth: 16,
+        alignSelf: 'center',
+        marginTop:-32,
+      },
+      arrowBorder:{
+        backgroundColor: 'transparent',
+        borderColor: 'transparent',
+        borderTopColor: THEME.COLORS.BACKGROUND_900,
+        borderWidth: 16,
+        alignSelf: 'center',
+        marginTop:-0.5,
+      },
+      titleCardText:{
+        fontWeight: '500',
+        fontSize: THEME.FONT_SIZE.SM,
+      },
+      produtosStars:{
+        flexDirection: 'row',
+        alignItems: 'center',
+        borderRadius: 30,
+        gap: 4,
+      },
+      starsText:{
+        color: THEME.COLORS.ACCENT_100
+      },
+      storeCategory:{
+        color: THEME.COLORS.PRIMARY_300,
+        fontWeight: '600',
+        marginLeft: 5,
+      
+      },
+      contact:{
+        gap: 4,
+        flexDirection:  'row',
+        alignItems: 'center', 
+      },
+      contactPhone:{
+        color: THEME.COLORS.CAPTION_500,
+        fontSize: THEME.FONT_SIZE.SM,
+      },
+      imageWrapperAndroid: {
+     
+     
+   
+   
+      },
 });

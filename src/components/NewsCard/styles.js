@@ -14,7 +14,11 @@ export const styles = StyleSheet.create({
   },
   titleNews:{
     fontSize: THEME.FONT_SIZE.LG,
-    marginHorizontal: 20,
-    marginBottom: 10
-  }
+    marginHorizontal: 21,
+    marginBottom: 10,
+    color: THEME.COLORS.CAPTION_500,
+    fontWeight: '500',
+    
+  },
+ 
 });

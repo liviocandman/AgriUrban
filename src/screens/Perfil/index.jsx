@@ -5,7 +5,7 @@ import { styles } from './styles';
 export function Perfil() {
   return (
     <View style={styles.container}>
-
+     
     </View>
   );
 }

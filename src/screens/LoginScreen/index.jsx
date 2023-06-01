@@ -1,12 +1,15 @@
 import { useState } from 'react';
-import { View, Text, Image, TouchableOpacity, KeyboardAvoidingView} from 'react-native';
+import { View, Text, TextInput, Image, TouchableOpacity, KeyboardAvoidingView} from 'react-native';
+import { StatusBar } from 'expo-status-bar';
 
-import { styles } from './styles';
-import logoImg from '../../assets/agriurbanlogo.svg';
-import { MaterialIcons, AntDesign } from '@expo/vector-icons';
-import { TextInput } from 'react-native';
 import { auth } from '../../../firebase';
 import { signInWithEmailAndPassword } from 'firebase/auth'
+
+import { MaterialIcons, AntDesign } from '@expo/vector-icons';
+import { styles } from './styles';
+import logoImg from '../../assets/agriurbanlogo.svg';
+
+
 
 export function LoginScreen( {navigation}) {
   
@@ -30,7 +33,12 @@ export function LoginScreen( {navigation}) {
   }
 
   return (
-    <KeyboardAvoidingView behavior='padding' style={styles.container}>
+   <View>
+    
+    <StatusBar translucent={true}/>
+     
+     <KeyboardAvoidingView behavior='padding' style={styles.container}>
+      
       <View style={styles.padding}>
         <View style={styles.logo}>
           <Image
@@ -96,5 +104,7 @@ export function LoginScreen( {navigation}) {
         </View>
       </View>
     </KeyboardAvoidingView> 
-  );
+
+   </View>
+   );
 }

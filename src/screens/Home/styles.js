@@ -4,18 +4,12 @@ import { THEME } from '../../theme';
 export const styles = StyleSheet.create({
   container: {
     flex:1,
-    
   },
-  topBackground: {
+  content: {
     flex:1,
     position: 'relative',
     backgroundColor: THEME.COLORS.BACKGROUND_900,
   },  
-  greenBackground: {
-    width: '100%',
-    position: 'absolute',
-    borderBottomEndRadius: 40
-  },
   header:{
     paddingHorizontal: 16,
     flexDirection: 'row',
@@ -44,11 +38,7 @@ export const styles = StyleSheet.create({
     fontSize: THEME.FONT_SIZE.SM,
 
   },
-  textCategories:{
-    fontWeight: '500',
-    fontSize: THEME.FONT_SIZE.MD,
 
-  },
   searchBar:{
     marginHorizontal: 20,
     marginTop: 30,
@@ -72,30 +62,14 @@ export const styles = StyleSheet.create({
     borderRadius: 50,
     backgroundColor: THEME.COLORS.ACCENT_100
   },
-  categories:{
-    paddingHorizontal: 20,
-    marginTop: 16,
-    gap:8
-  },
-  categoriesButtons:{
-    padding: 16,
-    paddingHorizontal: 20,
-    borderRadius: 50,
-    marginRight: 8,
-    shadowOpacity: 1,
-  },
-  categoriesText: {
-    fontWeight: '700',
-  },
-  activeCategoriesText:{
-    color: 'white'
-  },
+  
   titleCard:{
-    fontWeight: '700',
+    fontWeight: 'bold',
     paddingHorizontal: 20,
-    fontSize: THEME.FONT_SIZE.MD
+    fontSize: THEME.FONT_SIZE.LG,
+ 
   },
-  produtosCard: {
+  card: {
     marginTop: 30,
   },
 

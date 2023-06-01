@@ -5,20 +5,16 @@ import { THEME } from '../../theme';
 export const styles = StyleSheet.create({
   container: {
     borderRadius: 10,
-    height: 250,
-    width: 200,
+    height: 200,
+    width: 180,
     marginTop: 30,
     borderWidth: 1,
     borderColor: THEME.COLORS.CAPTION_300
   },
   shadowImage:{
-    shadowColor: 'black',
-    shadowRadius: 30,
-    shadowOffset: {width: 0, height: 30},
-    shadowOpacity: 0.8,
     flexDirection: 'row',
     justifyContent: 'center',
-    marginTop: -55
+    marginTop: -50
   },
   infoCard:{
     paddingHorizontal: 20,

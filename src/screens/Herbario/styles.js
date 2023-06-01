@@ -11,11 +11,6 @@ export const styles = StyleSheet.create({
     position: 'absolute',
    
   },  
-  greenBackground: {
-    width: '100%',
-    position: 'absolute',
-    borderBottomEndRadius: 40
-  },
   header:{
     paddingHorizontal: 16,
     flexDirection: 'row',
@@ -50,9 +45,9 @@ export const styles = StyleSheet.create({
 
   },
   titleCard:{
-    fontWeight: '700',
+    fontWeight: 'bold',
     paddingHorizontal: 20,
-    fontSize: THEME.FONT_SIZE.MD
+    fontSize: THEME.FONT_SIZE.LG
   },
   searchBar:{
     marginHorizontal: 20,

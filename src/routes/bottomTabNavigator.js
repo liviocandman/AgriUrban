@@ -23,7 +23,7 @@ export function BottomTabNavigator() {
     
     >
     <Tab.Screen 
-        name="Home" 
+        name="Início" 
         component={Home}
         options={{
             tabBarIcon: ({ color, size }) => (
