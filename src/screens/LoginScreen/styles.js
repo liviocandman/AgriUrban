@@ -2,6 +2,10 @@ import { StyleSheet } from 'react-native';
 import { THEME } from '../../theme';
 
 export const styles = StyleSheet.create({
+  background:{
+    flex: 1,
+    backgroundColor: THEME.COLORS.BACKGROUND_900
+  },
   container: {
     justifyContent: 'center',
   },
@@ -21,6 +25,7 @@ export const styles = StyleSheet.create({
     fontSize: THEME.FONT_SIZE.LG,
     color: THEME.COLORS.TEXT_100,
     marginBottom: 30,
+    fontWeight: '400'
   },
   input: {
     flexDirection: 'row',
@@ -50,7 +55,8 @@ export const styles = StyleSheet.create({
   loginButtonText: {
     textAlign: 'center',
     fontSize: THEME.FONT_SIZE.MD,
-    color: THEME.COLORS.PRIMARY_200
+    color: THEME.COLORS.PRIMARY_200,
+    fontWeight: 'bold',
   },
   socialLogin:{
     flexDirection: 'row',
@@ -67,10 +73,12 @@ export const styles = StyleSheet.create({
   register: {
     flexDirection: 'row',
     justifyContent: 'center',
-    marginBottom: 30,
+  
   },
   registerText:{
     color: THEME.COLORS.PRIMARY_100,
+    fontSize: THEME.FONT_SIZE.SM,
+    fontWeight: 'bold',
   },
   errorText: {
     color: THEME.COLORS.ALERT

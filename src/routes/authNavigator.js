@@ -15,8 +15,8 @@ export function AuthNavigator() {
 
   return (
     <Stack.Navigator screenOptions={{headerShown: false}}>
-        <Stack.Screen name="login" component={LoginScreen} />
         <Stack.Screen name="register" component={RegisterScreen} />
+        <Stack.Screen name="login" component={LoginScreen} />
         <Stack.Screen name="home" component={BottomTabNavigator}	/>
         <Stack.Screen name="product" component={ProductScreen} />
         <Stack.Screen name="store" component={StoreScreen} />

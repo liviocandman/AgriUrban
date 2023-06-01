@@ -166,10 +166,10 @@ export const styles = StyleSheet.create({
         color: THEME.COLORS.CAPTION_500,
         fontSize: THEME.FONT_SIZE.SM,
       },
-      imageWrapperAndroid: {
-     
-     
-   
-   
-      },
+      loading:{
+       flex:1,
+        justifyContent: 'center',
+        color: THEME.COLORS.PRIMARY_100,
+        alignItems: 'center',
+      }
 });

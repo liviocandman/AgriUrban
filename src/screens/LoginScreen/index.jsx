@@ -7,7 +7,7 @@ import { signInWithEmailAndPassword } from 'firebase/auth'
 
 import { MaterialIcons, AntDesign } from '@expo/vector-icons';
 import { styles } from './styles';
-import logoImg from '../../assets/agriurbanlogo.svg';
+import logoImg from '../../assets/agriurbanlogo.png';
 
 
 
@@ -33,7 +33,7 @@ export function LoginScreen( {navigation}) {
   }
 
   return (
-   <View>
+   <View style={styles.background}>
     
     <StatusBar translucent={true}/>
      

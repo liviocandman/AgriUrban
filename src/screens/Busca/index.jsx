@@ -59,11 +59,11 @@ export  function Busca() {
     }, [])
 
     if(!markers || markers.length === 0) {
-      return <ActivityIndicator />
+      return <ActivityIndicator size={30} style={styles.loading}/>
     }
     
    
-  return loading ? <ActivityIndicator/> : <SafeAreaView style={styles.container}>
+  return loading ? <ActivityIndicator size={30} style={styles.loading}/> : <SafeAreaView style={styles.container}>
   <StatusBar translucent />
   <View>
         <View style={styles.header}>

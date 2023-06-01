@@ -6,7 +6,7 @@ import { createUserWithEmailAndPassword } from "firebase/auth";
 
 import { MaterialIcons, AntDesign } from '@expo/vector-icons';
 import { styles } from './styles';
-import logoImg from '../../assets/agriurbanlogo.svg';
+import logoImg from '../../assets/agriurbanlogo.png';
 import { StatusBar } from 'expo-status-bar';
 
 
@@ -40,7 +40,7 @@ export function RegisterScreen({ navigation }) {
   }
   
   return (
-    <View>
+    <View style={styles.background}>
       <StatusBar translucent={true} />
 
         <KeyboardAvoidingView behavior='padding' style={styles.container}>
@@ -53,7 +53,7 @@ export function RegisterScreen({ navigation }) {
             </View>
 
             <Text style={styles.text}>
-              Registrar
+              Cadastrar
             </Text>
             
             <View style={styles.input}> 
@@ -93,7 +93,7 @@ export function RegisterScreen({ navigation }) {
             <Text style={styles.errorText}>{validationMessage}</Text>
             <TouchableOpacity onPress={handleSignUp} style={styles.loginButton}>
               <Text style={styles.loginButtonText}>
-                Registrar
+                Cadastrar
               </Text>
             </TouchableOpacity>
           
@@ -112,7 +112,7 @@ export function RegisterScreen({ navigation }) {
             </View>
             <View style={styles.register}>
             <Text>Já possui uma conta?</Text>
-            <TouchableOpacity onPress={() => navigation.pop()}>
+            <TouchableOpacity onPress={() => navigation.navigate('login')}>
               <Text style={styles.registerText}> Login</Text>
             </TouchableOpacity>
             </View>
