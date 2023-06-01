@@ -2,10 +2,7 @@ import { StyleSheet } from 'react-native';
 import { THEME } from '../../theme';
 
 export const styles = StyleSheet.create({
-  background:{
-    flex: 1,
-    backgroundColor: THEME.COLORS.BACKGROUND_900
-  },
+ 
   container: {
     justifyContent: 'center',
   },
@@ -19,7 +16,6 @@ export const styles = StyleSheet.create({
     width: 250,
     height: 250,
     marginTop: 90,
-  
   },
   text: {
     fontSize: THEME.FONT_SIZE.LG,

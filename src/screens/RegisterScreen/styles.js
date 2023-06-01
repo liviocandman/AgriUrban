@@ -2,13 +2,9 @@ import { StyleSheet } from 'react-native';
 import { THEME } from '../../theme';
 
 export const styles = StyleSheet.create({
-  background:{
-    flex: 1,
-    backgroundColor: THEME.COLORS.BACKGROUND_900
-  },
+
   container: {
     justifyContent: 'center',
-    backgroundColor: THEME.COLORS.BACKGROUND_900
   },
   padding:{
     paddingHorizontal: 25,

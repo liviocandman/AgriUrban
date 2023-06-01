@@ -33,7 +33,7 @@ export function LoginScreen( {navigation}) {
   }
 
   return (
-   <View style={styles.background}>
+   <View >
     
     <StatusBar translucent={true}/>
      

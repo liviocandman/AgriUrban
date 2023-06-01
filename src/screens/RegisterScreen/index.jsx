@@ -40,7 +40,7 @@ export function RegisterScreen({ navigation }) {
   }
   
   return (
-    <View style={styles.background}>
+    <View >
       <StatusBar translucent={true} />
 
         <KeyboardAvoidingView behavior='padding' style={styles.container}>
