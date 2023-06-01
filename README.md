@@ -1,4 +1,4 @@
-<img align="left" src="https://github.com/liviocandman/AgriUrban/blob/master/app/src/assets/logo.png" height="60px"/>
+<img align="left" src="https://github.com/liviocandman/AgriUrban/blob/master/assets/icon.png" height="60px"/>
 <h2>AgriUrban</h2>
 <p>Um aplicativo de compras para localizar estabelecimentos que vendem alimentos orgânicos e um hebário contendo informações sobre diferentes espécies de plantas</p>
 
@@ -11,8 +11,6 @@
 ## 🚀 Open This Project In Your Phone:
 
 <img align="left" src="https://qr.expo.dev/expo-go?owner=liviocandman&slug=agriUrban&releaseChannel=default&host=exp.host" height="60px"/>
-- https://qr.expo.dev/expo-go?owner=liviocandman&slug=agriUrban&releaseChannel=default&host=exp.host
-
 
 ## 📝 Acknowlegements
 
