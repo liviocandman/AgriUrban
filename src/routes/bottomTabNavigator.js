@@ -49,7 +49,7 @@ export function BottomTabNavigator() {
         ),
       }}  
     />
-      
+{/*       
     <Tab.Screen 
         name="Perfil"
         component={Perfil}
@@ -58,7 +58,7 @@ export function BottomTabNavigator() {
           <MaterialCommunityIcons name="account-circle-outline" color={color} size={size} />
         ),
       }}  
-    />
+    /> */}
     </Tab.Navigator>
   );
 }
