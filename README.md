@@ -10,21 +10,6 @@
 <img src="https://github.com/liviocandman/AgriUrban/blob/master/src/assets/agriurbanlogo.png" height="200" />
 
 
-##  :camera: Images:
-
-<div style="display: flex, flex-direction: row">
-  <img src="https://imgtr.ee/images/2023/06/14/TYb2X.jpg" height="200" width="100"/>
-  <img src="https://imgtr.ee/images/2023/06/14/TYp5V.jpg" height="200" width="100"/>
-  <img src="https://imgtr.ee/images/2023/06/14/TYrIU.jpg" height="200" width="100"/>
-  <img src="https://imgtr.ee/images/2023/06/14/TYL7B.jpg" height="200" width="100"/>
-  <img src="https://imgtr.ee/images/2023/06/14/TYEVr.jpg" height="200" width="100"/>
-  <img src="https://imgtr.ee/images/2023/06/14/TYBwi.jpg" height="200" width="100"/>
-  <img src="https://imgtr.ee/images/2023/06/14/TYNwQ.jpg" height="200" width="100"/>
-  <img src="https://imgtr.ee/images/2023/06/14/TYW8b.jpg" height="200" width="100"/>
-  <img src="https://imgtr.ee/images/2023/06/14/TYhcA.jpg" height="200" width="100"/>
-</div>
-
-
 ## 🧪 Built With
 
 - [React Native](https://reactnative.dev/)
